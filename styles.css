@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.conteiner {
+  background: #353535;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.hero {
+  margin-top: 178px;
+  text-align: center;
+}
+
+.image {
+  margin-bottom: 55px;
+}
+
+.title {
+  margin-bottom: 55px;
+
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.34em;
+
+  color: #ffffff;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+.link {
+  width: 206px;
+  height: 57px;
+  border: 4px solid #78ded4;
+  border-radius: 10px;
+  text-decoration: none;
+
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #78ded4;
+}
+
+.text {
+  margin-bottom: 34px;
+
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+}
